@@ -1,4 +1,6 @@
-const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://subscription-vault-server.vercel.app/api';
+
 
 // API requests
 const apiRequest = async (url, options = {}) => {
