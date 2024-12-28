@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #bbfadd;
+    color: #1f2937;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white shadow-lg rounded-lg p-6 mb-4;
+  }
+
+  .button {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-md transition hover:bg-blue-700;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-screen-lg mx-auto;
+  }
+
+  .center {
+    @apply flex justify-center items-center;
+  }
+}

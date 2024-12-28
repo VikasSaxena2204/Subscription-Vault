@@ -1,0 +1,25 @@
+{
+  "name": "subscription-vault-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "json-server": "json-server --watch db.json --port 5000", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vikas Saxena",
+  "license": "ISC",
+  "description": "Backend setup for JSON Server to match Subscription Vault.",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "json-server": "^0.17.0"  
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

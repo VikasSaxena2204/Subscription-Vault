@@ -1,0 +1,254 @@
+{
+  "customers": [
+    {
+      "id": "CUST001",
+      "name": "CyberCloud Systems",
+      "reg_no ": "AAAPL1234C"
+    },
+    {
+      "id": "CUST002",
+      "name": "SoftEdge Solutions",
+      "reg_no ": "BBMPL5678D"
+    },
+    {
+      "id": "CUST003",
+      "name": "NextGen Software",
+      "reg_no ": "CCLPL9876X"
+    },
+    {
+      "id": "CUST004",
+      "name": "Alpha Apps",
+      "reg_no ": "DDFPL5432Y"
+    },
+    {
+      "id": "CUST005",
+      "name": "BlueSky Technologies",
+      "reg_no ": "EEGPL2111Z"
+    },
+    {
+      "id": "CUST006",
+      "name": "CodeWorks",
+      "reg_no ": "FFHPL3223M"
+    },
+    {
+      "id": "CUST007",
+      "name": "Tech Innovators",
+      "reg_no ": "GGIPL4534N"
+    },
+    {
+      "id": "CUST008",
+      "name": "DataSync Solutions",
+      "reg_no ": "HHJPL5678K"
+    },
+    {
+      "id": "CUST009",
+      "name": "SmartHub Software",
+      "reg_no ": "IIKPL8901O"
+    },
+    {
+      "id": "CUST010",
+      "name": "Quantum Dynamics",
+      "reg_no ": "JJLPL1234A"
+    }
+  ],
+  "products": [
+    {
+      "id": "a669",
+      "name": "SAAS CloudSync",
+      "description": "Annual subscription for CloudSync",
+      "price": 150
+    },
+    {
+      "id": "f01b",
+      "name": "SAAS DataVault",
+      "description": "Annual subscription for DataVault",
+      "price": 200
+    },
+    {
+      "id": "b897",
+      "name": "SAAS CodeFlow",
+      "description": "Annual subscription for CodeFlow",
+      "price": 120
+    },
+    {
+      "id": "c323",
+      "name": "SAAS TaskBoard",
+      "description": "Annual subscription for TaskBoard",
+      "price": 160
+    },
+    {
+      "id": "dabc",
+      "name": "SAAS PayMaster",
+      "description": "Annual subscription for PayMaster",
+      "price": 250
+    },
+    {
+      "id": "e984",
+      "name": "SAAS ChatConnect",
+      "description": "Annual subscription for ChatConnect",
+      "price": 220
+    },
+    {
+      "id": "f735",
+      "name": "SAAS TeamHub",
+      "description": "Annual subscription for TeamHub",
+      "price": 180
+    },
+    {
+      "id": "g528",
+      "name": "SAAS SecureDocs",
+      "description": "Annual subscription for SecureDocs",
+      "price": 220
+    },
+    {
+      "id": "h392",
+      "name": "SAAS CRMPlus",
+      "description": "Annual subscription for CRMPlus",
+      "price": 140
+    },
+    {
+      "id": "i746",
+      "name": "SAAS VisionAI",
+      "description": "Annual subscription for VisionAI",
+      "price": 400
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "01",
+      "customer_id": "CUST001",
+      "customer_name": "CyberCloud Systems",
+      "product_id": "a669",
+      "product_name": " SAAS CloudSync",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-28",
+      "no_of_users": 10,
+      "status": "ongoing",
+      "revenue": 1500,
+      "extension_count": 0,
+      "extensionDays": {
+        "extension_count": 30
+      }
+    },
+    {
+      "id": "02",
+      "customer_id": "CUST002",
+      "customer_name": "SoftEdge Solutions",
+      "product_id": "f01b",
+      "product_name": " SAAS DataVault",
+      "start_date": "2024-02-01",
+      "end_date": "2025-01-31",
+      "no_of_users": 5,
+      "status": "ongoing",
+      "revenue": 1000,
+      "extension_count": 0
+    },
+    {
+      "id": "03",
+      "customer_id": "CUST003",
+      "customer_name": "NextGen Software",
+      "product_id": "b897",
+      "product_name": " SAAS CodeFlow",
+      "start_date": "2024-03-01",
+      "end_date": "2025-02-28",
+      "no_of_users": 3,
+      "status": "ongoing",
+      "revenue": 360,
+      "extension_count": 0
+    },
+    {
+      "id": "04",
+      "customer_id": "CUST004",
+      "customer_name": "Alpha Apps",
+      "product_id": "c323",
+      "product_name": " SAAS TaskBoard",
+      "start_date": "2024-04-01",
+      "end_date": "2025-03-31",
+      "no_of_users": 8,
+      "status": "ongoing",
+      "revenue": 1280,
+      "extension_count": 0
+    },
+    {
+      "id": "05",
+      "customer_id": "CUST005",
+      "customer_name": "BlueSky Technologies",
+      "product_id": "dabc",
+      "product_name": " SAAS PayMaster",
+      "start_date": "2024-05-01",
+      "end_date": "2025-04-30",
+      "no_of_users": 12,
+      "status": "ongoing",
+      "revenue": 3000,
+      "extension_count": 0
+    },
+    {
+      "id": "06",
+      "customer_id": "CUST006",
+      "customer_name": "CodeWorks",
+      "product_id": "e984",
+      "product_name": " SAAS ChatConnect",
+      "start_date": "2024-06-01",
+      "end_date": "2025-05-31",
+      "no_of_users": 15,
+      "status": "ongoing",
+      "revenue": 3300,
+      "extension_count": 0
+    },
+    {
+      "id": "07",
+      "customer_id": "CUST007",
+      "customer_name": "Tech Innovators",
+      "product_id": "f735",
+      "product_name": " SAAS TeamHub",
+      "start_date": "2024-07-01",
+      "end_date": "2025-06-30",
+      "no_of_users": 7,
+      "status": "ongoing",
+      "revenue": 1260,
+      "extension_count": 0
+    },
+    {
+      "id": "08",
+      "customer_id": "CUST008",
+      "customer_name": "DataSync Solutions",
+      "product_id": "g528",
+      "product_name": " SAAS SecureDocs",
+      "start_date": "2024-08-01",
+      "end_date": "2025-07-31",
+      "no_of_users": 9,
+      "status": "ongoing",
+      "revenue": 1980,
+      "extension_count": 0
+    },
+    {
+      "id": "09",
+      "customer_id": "CUST009",
+      "customer_name": "SmartHub Software",
+      "product_id": "h392",
+      "product_name": " SAAS CRMPlus",
+      "start_date": "2024-09-01",
+      "end_date": "2025-08-31",
+      "no_of_users": 6,
+      "status": "ongoing",
+      "revenue": 840,
+      "extension_count": 0
+    },
+    {
+      "id": "10",
+      "customer_id": "CUST010",
+      "customer_name": "Quantum Dynamics",
+      "product_id": "i746",
+      "product_name": " SAAS VisionAI",
+      "start_date": "2024-10-01",
+      "end_date": "2024-12-28",
+      "no_of_users": 6,
+      "status": "ongoing",
+      "revenue": 2400,
+      "extension_count": 0,
+      "extensionDays": {
+        "extension_count": 30
+      }
+    }
+  ]
+}
