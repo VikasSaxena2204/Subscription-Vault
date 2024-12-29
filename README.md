@@ -35,7 +35,7 @@ Subscription-Vault is a web application to manage and track your subscriptions e
 
 ## Getting Started
 
-Follow the instructions below to set up and run the project locally.
+You can follow the instructions below to set up and run the project locally.
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ Follow the instructions below to set up and run the project locally.
 
 2. Install dependencies for the frontend:
    ```bash
-   cd client
+   cd frontend 
    npm install
    ```
 
@@ -68,7 +68,7 @@ Follow the instructions below to set up and run the project locally.
 
 1. Navigate to the frontend directory:
    ```bash
-   cd client
+   cd frontend 
    ```
 
 2. Start the React development server:
@@ -93,13 +93,13 @@ The backend will run on `http://localhost:5000`, and the frontend will run on `h
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page Screenshot]()
+![Home Page Screenshot](https://github.com/VikasSaxena2204/Subscription-Vault/blob/main/assets/Home.png)
 
 ### Subscription Page
-![Subscription Page Screenshot]()
+![Subscription Page Screenshot](https://github.com/VikasSaxena2204/Subscription-Vault/blob/main/assets/Subscription.png)
 
 ### Revenue Page
-![Revenue Page Screenshot]()
+![Revenue Page Screenshot](https://github.com/VikasSaxena2204/Subscription-Vault/blob/main/assets/Revenue.png)
 
 
 ---
