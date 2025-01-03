@@ -1,6 +1,6 @@
 # Subscription-Vault
 
-Subscription-Vault is a web application to manage and track your subscriptions effectively. The app provides features like adding subscriptions, viewing a subscription list, and generating a revenue report.
+Subscription-Vault is a web application for managing and tracking subscriptions effectively. The app provides features like adding subscriptions, viewing a subscription list and generating a revenue report.
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ Subscription-Vault is a web application to manage and track your subscriptions e
 
 ## Getting Started
 
-You can follow the instructions below to set up and run the project locally.
+Follow the instructions below to set up and run the project locally.
 
 ### Prerequisites
 
